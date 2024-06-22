@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'PlumpeloV2Regular';
+    src: url('PlumpeloV2Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bad Signal';
+    src: url('Bad\ Signal.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

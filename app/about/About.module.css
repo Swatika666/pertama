@@ -1,0 +1,41 @@
+/* About.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px; /* Atur lebar maksimum gambar */
+  height: auto; /* Biarkan tinggi menyesuaikan */
+  margin-bottom: 20px;
+}
+
+.description {
+  max-width: 600px; /* Lebar maksimum untuk teks deskripsi */
+  margin-top: 8px; /* Margin atas untuk memisahkan deskripsi dengan card di layar kecil */
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .card {
+    max-width: 25%; /* Gambar menjadi setengah lebar saat layar lebih besar */
+    margin-bottom: 0;
+  }
+
+  .description {
+    max-width: 50%; /* Deskripsi juga setengah lebar */
+    margin-top: 0; /* Hapus margin atas pada layar yang lebih besar */
+    margin-left: 20px; /* Tambahkan margin kiri untuk memisahkan deskripsi dengan card */
+  }
+}

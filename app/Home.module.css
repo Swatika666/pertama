@@ -1,0 +1,82 @@
+@import '../public/font/font.css';
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px); /* Adjust height to account for header */
+  text-align: center;
+}
+
+.title1 {
+  font-family: 'Bad Signal', sans-serif;
+  font-size: 240px;
+  margin-top: -50px; /* Adjust margin top */
+}
+
+.title2 {
+  font-family: 'PlumpeloV2Regular', sans-serif;
+  font-size: 100px;
+  margin-top: -120px; /* Adjust margin top */
+}
+
+.description {
+  font-size: 18px;
+  color: #666;
+  position: absolute; /* Menjadikan .description sebagai posisi absolut */
+  bottom: 30px; /* Menempatkan .description di bagian bawah */
+  left: 20px; /* Menempatkan .description di sisi kiri */
+  transform: translateY(100%); /* Menggeser .description ke bawah sesuai tingginya */
+
+}
+
+.titel {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  text-align: center; /* Center text */
+}
+
+.desk {
+  font-size: 0.8em;
+  color: gray;
+  margin-bottom: 2em;
+  text-align: center; /* Center text */
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black; /* Add a border around the container */
+    padding: 5px ; /* Add padding to create space between the border and the image */
+}
+  
+.imageContainer img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.dek{
+    font-size: 10px;
+    color: gray;
+}
+@media (max-width: 768px) {
+  .title1 {
+    font-size: 18vw; /* Font size for smaller screens */
+    margin-top: -100px; /* Adjust margin top */
+  }
+  
+  .title2 {
+    font-size: 8vw; /* Font size for smaller screens */
+    margin-top: -10px; /* Adjust margin top */
+  }
+  
+  .description {
+    font-size: 10px;
+    color: #666;
+    position: absolute; /* Menjadikan .description sebagai posisi absolut */
+    left: 20px; /* Menempatkan .description di sisi kiri */
+    transform: translateY(100%); /* Menggeser .description ke bawah sesuai tingginya */
+  }
+}
