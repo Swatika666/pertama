@@ -13,7 +13,7 @@ interface Repository {
 
 const Posts = () => {
   const [repositories, setRepositories] = useState<Repository[]>([]);
-  const username = 'Gktwo'; // Ganti dengan username GitHub yang sesuai
+  const username = 'Swatika666'; // Ganti dengan username GitHub yang sesuai
 
   useEffect(() => {
     axios.get(`https://api.github.com/users/${username}/repos`)
